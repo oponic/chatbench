@@ -1,0 +1,3 @@
+# Only needed for the AnthropicModel adapter. The echo model and all
+# scoring run on the Python standard library alone.
+anthropic>=0.40.0

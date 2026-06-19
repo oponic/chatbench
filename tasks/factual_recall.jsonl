@@ -1,0 +1,8 @@
+{"id": "fr-001", "category": "factual_recall", "prompt": "What is the chemical symbol for gold? Answer with only the symbol.", "grader": [{"check": "regex", "pattern": "^\\s*Au\\s*$"}]}
+{"id": "fr-002", "category": "factual_recall", "prompt": "In what year did the first human land on the Moon?", "grader": [{"check": "contains_all", "values": ["1969"]}]}
+{"id": "fr-003", "category": "factual_recall", "prompt": "Who wrote the play 'Hamlet'?", "grader": [{"check": "contains_any", "values": ["Shakespeare", "William Shakespeare"]}]}
+{"id": "fr-004", "category": "factual_recall", "prompt": "What is the capital city of Australia?", "grader": [{"check": "contains_all", "values": ["Canberra"]}, {"check": "not_contains", "values": ["Sydney", "Melbourne"]}]}
+{"id": "fr-005", "category": "factual_recall", "prompt": "How many bits are in one byte?", "grader": [{"check": "contains_all", "values": ["8"]}]}
+{"id": "fr-006", "category": "factual_recall", "prompt": "What is the largest planet in our solar system?", "grader": [{"check": "contains_any", "values": ["Jupiter"]}]}
+{"id": "fr-007", "category": "factual_recall", "prompt": "What gas do plants primarily absorb from the atmosphere during photosynthesis?", "grader": [{"check": "contains_any", "values": ["carbon dioxide", "CO2", "CO₂"]}]}
+{"id": "fr-008", "category": "factual_recall", "prompt": "What is the square root of 144? Answer with only the number.", "grader": [{"check": "regex", "pattern": "^\\s*12\\s*$"}]}
